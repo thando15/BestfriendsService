@@ -12,6 +12,6 @@ namespace BestfriendsService
     public interface IBestFriendsService
     {
         [OperationContract]
-        void DoWork();
+        int login();
     }
 }

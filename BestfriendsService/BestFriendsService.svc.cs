@@ -11,8 +11,6 @@ namespace BestfriendsService
     // NOTE: In order to launch WCF Test Client for testing this service, please select BestFriendsService.svc or BestFriendsService.svc.cs at the Solution Explorer and start debugging.
     public class BestFriendsService : IBestFriendsService
     {
-        public void DoWork()
-        {
-        }
+        public int login() { return 0; }
     }
 }
