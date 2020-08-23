@@ -11,7 +11,6 @@ namespace BestfriendsService
     [ServiceContract]
     public interface IBestFriendsService
     {
-        [OperationContract]
-        int login();
+        
     }
 }
